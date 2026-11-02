@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Breakfast Menu · Savanna Coffee Lounge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-menu="breakfast">
+  <header class="brand">
+    <div class="logo">SAVANNA</div>
+    <div class="sub">COFFEE LOUNGE</div>
+    <h1>Breakfast Menu</h1>
+    <a class="back" href="index.html">← All menus</a>
+  </header>
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="Search the menu…" aria-label="Search the menu">
+    <nav id="nav" aria-label="Menu sections"></nav>
+  </div>
+  <main id="content"></main>
+  <p id="empty" hidden>No items match your search.</p>
+  <footer>All prices in Kenya Shillings (KSh).</footer>
+  <script src="assets/menu-data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
